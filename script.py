@@ -95,14 +95,14 @@ while True:
             pass
     if found==1:
         if var_9 == 1 and prevVar_9 ==0:
-            send_msg("["+current_time + " ] 9.30 seansında "+ free9+ " yer var bro")
+            send_msg("["+current_time + " ] 9.30 seansında "+ free9+ " yer var")
             sentMessage9=1
             prevVar_9 =1
         else:
             prevVar_9 = 0
         
         if var_9 == 0 and sentMessage9 == 1:
-            send_msg("["+current_time + " ] 9.30 seansında artık yer yok bro :D")
+            send_msg("["+current_time + " ] 9.30 seansında artık yer yok")
             sentMessage9=0
         elif var_9==0 and sentMessage9==0:
             pass
@@ -110,14 +110,14 @@ while True:
             pass
         
         if var_12 == 1 and prevVar_12==0:
-            send_msg("["+current_time + " ] 12.00 seansında "+ free12+" yer var bro")
+            send_msg("["+current_time + " ] 12.00 seansında "+ free12+" yer var")
             prevVar_12 =1
             sentMessage12=1
         else:
             prevVar_12 = 0
             
         if var_12 == 0 and sentMessage12 == 1:
-            send_msg("["+current_time + " ] 12.00 seansında artık yer yok bro :D")
+            send_msg("["+current_time + " ] 12.00 seansında artık yer yok")
             sentMessage12=0
         elif var_12 == 0 and sentMessage12==0:
             pass
@@ -127,7 +127,7 @@ while True:
             
             
         if var_14 == 1 and prevVar_14==0:
-            send_msg("["+current_time + " ] 14.00 seansında" +free14+" yer var bro")
+            send_msg("["+current_time + " ] 14.00 seansında" +free14+" yer var")
             prevVar_14 =1
             sentMessage14=1
         
@@ -136,7 +136,7 @@ while True:
             
           
         if var_14 == 0 and sentMessage14 == 1:
-            send_msg("["+current_time + " ] 14 seansında artık yer yok bro :D")
+            send_msg("["+current_time + " ] 14 seansında artık yer yok")
             sentMessage14=0
         elif var_14 == 0 and sentMessage14==0:
             pass
@@ -145,14 +145,14 @@ while True:
             
             
         if var_16 == 1 and prevVar_16==0:
-            send_msg("["+current_time + " ] 16.00 seansında"+free16+" yer var bro")
+            send_msg("["+current_time + " ] 16.00 seansında"+free16+" yer var")
             prevVar_16 =1
             sentMessage16=1
         else:
             prevVar_16=0
           
         if var_16 == 0 and sentMessage16 == 1:
-            send_msg("["+current_time + " ] 16.00 seansında "+free18+" artık yer yok bro :D")
+            send_msg("["+current_time + " ] 16.00 seansında "+free18+" artık yer yok")
             sentMessage16=0
         elif var_16 == 0 and sentMessage16==0:
             pass
@@ -161,7 +161,7 @@ while True:
             
             
         if var_18 == 1 and prevVar_18==0:
-            send_msg("["+current_time + " ] 17.50 seansında "+free18+" yer var bro")
+            send_msg("["+current_time + " ] 17.50 seansında "+free18+" yer var")
             prevVar_18 =1
             sentMessage18=1
         else:
@@ -169,7 +169,7 @@ while True:
             
             
         if var_18 == 0 and sentMessage18 == 1:
-            send_msg("["+current_time + " ] 17.50 seansı artık yok bro :D")
+            send_msg("["+current_time + " ] 17.50 seansı artık yok")
             sentMessage18=0
         elif var_18 == 0 and sentMessage18==0:
             pass   
@@ -177,14 +177,14 @@ while True:
             pass
             
         if var_20 == 1 and prevVar_20==0:
-            send_msg("["+current_time + " ] 19.20 seansında "+free20+" yer var bro")
+            send_msg("["+current_time + " ] 19.20 seansında "+free20+" yer var")
             prevVar_20 =1
             sentMessage20=1
         else:
             prevVar_20 = 0
             
         if var_20 == 0 and sentMessage20 == 1:
-            send_msg("["+current_time + " ] 19.20 seansı artık yok bro :D")
+            send_msg("["+current_time + " ] 19.20 seansı artık yok")
             sentMessage20=0
             
         elif var_20 == 0 and sentMessage20==0:
